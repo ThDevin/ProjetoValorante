@@ -6,17 +6,18 @@
 .conteudo {
     background-color: white;
     width: 400px;
-    margin-top: 210px; margin-left: 580px;
-    border-radius: 20px;    
+    margin-top: 210px;
+    margin-left: 580px;
+    border-radius: 20px;
 }
 
 body {
-    background-image: url(./imagens/foto2Valorante.webp);
+    background-image: url(../imagens/foto2Valorante.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10%;
-    
+
 }
 
 h1 {
@@ -24,7 +25,7 @@ h1 {
     padding-left: 138px;
     font-size: 25px;
     margin-top: 20px;
-    
+
 }
 
 .logo {
@@ -37,7 +38,7 @@ h1 {
     margin-top: 20px;
 }
 
-.corpo > input {
+.corpo>input {
     flex-direction: columns;
     border-radius: 5px;
     padding: 15px;
@@ -85,9 +86,9 @@ input:hover {
 }
 
 .socialF:hover {
-    background-color: #0483c2e5; 
+    background-color: #0483c2e5;
 
-    }
+}
 
 .socialG {
     width: 25px;
@@ -138,13 +139,17 @@ input:hover {
     margin-bottom: 20px;
     color: #b4b4b4ec;
     text-decoration: underline;
-    
+
 }
 
 .corpo .verificar {
     margin-top: 20px;
     width: 100px;
-    padding: 5px; padding-left: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    color: #EB0029;
+    transition-duration: 0.5s;
+    background-color: black;
 }
 
 .corpo .mensagem {
@@ -157,7 +162,7 @@ input:hover {
 }
 
 .corpo .verificar:hover {
-    color: #EB0029;
+    color: #f7f7f7;
     transition-duration: 0.5s;
     background-color: black;
 }
@@ -174,10 +179,10 @@ input:hover {
     margin-top: 10px;
     margin-left: 650px;
     color: #fffdfdec;
-    
+
 }
 
-.direitos  {
+.direitos {
     margin-left: -25px;
 }
 

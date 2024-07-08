@@ -4,6 +4,7 @@ let senha = document.querySelector('.senha');
 let botao = document.querySelector('.botao');
 let verficar = document.querySelector('.verificar')
 let mensagem = document.querySelector('.mensagem')
+let url = "http://127.0.0.1:5500/Projeto%20MenuValorante/Login.html"
 
 
 document.getElementById('olho').addEventListener('mousedown', function () {
@@ -30,6 +31,7 @@ document.querySelector('.verificar').addEventListener('click', function () {
         mensagem.style.display = 'none'
         verficar.style.display = 'none'
         botao.style.display = 'block'
+        window.location.href = url
         window.alert('Conta criada com sucessso!');
     } 
 })

@@ -6,7 +6,7 @@ document.getElementById('olho').addEventListener('click', function () {
     document.getElementById('pass').type = 'password';
 });
 
-let configuracao = document.querySelector('#config')
+
 
 
 

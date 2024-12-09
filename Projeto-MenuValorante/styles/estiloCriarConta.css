@@ -63,8 +63,16 @@ input:hover {
     margin-bottom: 20px;
 }
 
+.nome:hover {
+    cursor: inherit;
+}
+
 .senha {
     margin-top: 20px;
+}
+
+.senha:hover {
+    cursor: inherit;
 }
 
 ::placeholder {
